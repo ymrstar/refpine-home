@@ -63,6 +63,16 @@ nav a { font-size: .9rem; font-weight: 700; text-decoration: none; }
 .service-grid article { min-height: 310px; padding: 2.2rem; border: 1px solid var(--line); border-radius: 22px; }
 .service-grid h3 { margin: 2.6rem 0 1rem; }
 
+.pack-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); gap: 1rem; margin-top: 4rem; }
+.pack-grid article { display: flex; flex-direction: column; padding: 2.2rem; border: 1px solid var(--line); border-radius: 22px; }
+.pack-grid h3 { margin: 1.4rem 0 1rem; }
+.pack-grid > article > p { color: var(--muted); }
+.pack-list { margin: 1.3rem 0 0; padding-left: 1.15rem; color: var(--muted); }
+.pack-list li { margin-bottom: .45rem; font-size: .93rem; line-height: 1.7; }
+.pack-price { margin-top: auto; padding-top: 1.4rem; color: var(--green-dark) !important; font-size: 1.4rem; font-weight: 800; }
+.pack-grid article > .pack-price { border-top: 1px solid var(--line); }
+.pack-price span { display: block; margin-top: .35rem; color: var(--muted); font-size: .8rem; font-weight: 600; }
+.pack-note { margin-top: 2rem; color: var(--muted); font-size: .84rem; }
 .price-section { padding-block: 8rem; color: var(--white); background: var(--ink); }
 .price-section .eyebrow { color: #8bd4bc; }
 .price-heading > p { color: #b6c5c0; }
